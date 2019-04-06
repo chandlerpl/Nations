@@ -1,0 +1,15 @@
+name: Nations
+main: com.MegaCraft.Nations.Nations
+version: 1.0.0
+author: chandlerpl
+
+commands:
+  nations:
+    aliases: [Nations,n]
+permissions:
+  #OP permissions
+  nations.admin:
+    default: op
+    description: Access to abilities and commands.
+    children:
+      
